@@ -11,7 +11,7 @@ class Interval<T: Any>(
     constructor(prop: KMutableProperty0<T>, to: T): this(prop, prop.get(), to)
 
     fun update(progress: Double): T {
-        value.set(interpolate(from, to, progress))
+        value.set(Interpolators.interpolate(from, to, progress))
         return value.get()
     }
 

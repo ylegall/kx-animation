@@ -1,6 +1,4 @@
-package org.ygl.kxa.ease
-
-import org.ygl.kxa.ProgressProvider
+package org.ygl.kxa
 
 
 class FrameProgressProvider(

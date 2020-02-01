@@ -1,7 +1,5 @@
 package org.ygl.kxa.ease
 
-import org.ygl.kxa.EaseFunction
-
 
 enum class Ease(
         val function: (Double) -> Double,

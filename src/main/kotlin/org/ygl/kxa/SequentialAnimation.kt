@@ -56,33 +56,6 @@ class SequentialAnimation(
     }
 }
 
-//class SequentialAnimationBuilder {
-//    val animations = mutableListOf<Animatable>()
-//
-//    fun animation(animatable: Animatable) {
-//        animations.add(animatable)
-//    }
-//
-//    inline fun animation(block: AnimationBuilder.() -> Unit) {
-//        val animation = org.ygl.kxa.animation { block() }
-//        animations.add(animation)
-//    }
-//
-//    inline fun parallelAnimation(block: ParallelAnimationBuilder.() -> Unit) {
-//        val builder = ParallelAnimationBuilder()
-//        builder.block()
-//        animations.add(builder.build())
-//    }
-//
-//    inline fun sequentialAnimation(block: SequentialAnimationBuilder.() -> Unit) {
-//        val builder = SequentialAnimationBuilder()
-//        builder.block()
-//        animations.add(builder.build())
-//    }
-//
-//    fun build() = SequentialAnimation(animations)
-//}
-
 /**
  * utility function for building an unmanaged sequential animation
  */

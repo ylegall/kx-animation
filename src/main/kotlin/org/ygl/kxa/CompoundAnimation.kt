@@ -7,6 +7,8 @@ package org.ygl.kxa
 class CompoundAnimationBuilder(
         val animations: MutableList<Animatable> = mutableListOf()
 ) {
+    var onComplete: CompletionCallback? = null
+
     fun animation(animatable: Animatable) {
         animations.add(animatable)
     }
@@ -24,5 +26,9 @@ class CompoundAnimationBuilder(
     inline fun parallelAnimation(block: CompoundAnimationBuilder.() -> Unit) {
         val parallelAnimations = CompoundAnimationBuilder().apply(block).animations
         animations.add(ParallelAnimation(parallelAnimations))
+    }
+
+    fun onComplete(onComplete: CompletionCallback) {
+        this.onComplete = onComplete
     }
 }

@@ -3,9 +3,6 @@ package org.ygl.kxa
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
-import org.ygl.kxa.ease.FrameProgressProvider
-import org.ygl.kxa.ease.Frames
-import org.ygl.kxa.ease.frames
 import kotlin.math.abs
 
 

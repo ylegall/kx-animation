@@ -1,9 +1,6 @@
 package org.ygl.kxa
 
 import org.ygl.kxa.ease.Ease
-import org.ygl.kxa.ease.FrameProgressProvider
-import org.ygl.kxa.ease.Frames
-import org.ygl.kxa.ease.frames
 import org.ygl.kxa.util.seconds
 import java.time.Duration
 import kotlin.reflect.KMutableProperty0

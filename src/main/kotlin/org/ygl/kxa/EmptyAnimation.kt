@@ -1,7 +1,4 @@
-package org.ygl.kxa.ease
-
-import org.ygl.kxa.Animatable
-import org.ygl.kxa.AnimationState
+package org.ygl.kxa
 
 
 /**

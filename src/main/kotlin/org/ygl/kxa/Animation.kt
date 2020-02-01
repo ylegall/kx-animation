@@ -1,6 +1,7 @@
 package org.ygl.kxa
 
 import org.ygl.kxa.ease.Ease
+import org.ygl.kxa.ease.EaseFunction
 import org.ygl.kxa.util.seconds
 
 

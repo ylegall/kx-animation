@@ -1,4 +1,4 @@
-package org.ygl.kxa
+package org.ygl.kxa.ease
 
 
 interface EaseFunction {
